@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://css.gg/readme.css');
+@import url('https://css.gg/search.css');
+@import url('https://css.gg/calculator.css');
+@import url('https://css.gg/info.css');
+
+.App {
+	text-align: center;
+}
+
+/* navigation bar css */
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 10vh;
+	background: #dbdbdb;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	border: ridge;
+}
+
+.nav-links {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-links li {
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: cadetblue;
+}
+
+li #dropdownlink {
+	display: inline-block;
+}
+
+#dropdownlink {
+	padding-right: 100px;
+}
+
+.dropdown {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	width: 250px;
+	padding-left: 0%;
+}
+
+.dropdown a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+#dropdownlink:hover .dropdown {
+	display: block;
+}
+
+/*Header.js CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+#heading {
+	font-size: 40px;
+	font-family: 'Noto Serif', serif;
+	color: rgb(28, 28, 29);
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+header {
+	background: #dbdbdb;
+}
+
+header .search-container {
+	float: left;
+	padding: 15px;
+}
+
+/*title for each page */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+#title {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+/*Footer */
+
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	list-style: none;
+	background-color: lightgray;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	text-decoration: none;
+	text-align: center;
+}
+
+.column ul {
+	list-style-type: none;
+}
+
+#footerLinks link {
+	text-decoration: none;
+	color: black;
+}
+
+#col {
+	width: 40%;
+	padding: 10px;
+	height: 200px;
+	border-style: ridge;
+	display: inline-block;
+}
+
+.card {
+	width: 40%;
+	display: inline-block;
+	margin: 40px;
+}
+
+.card-body {
+	padding: 20px;
+}
+
+/*Shopping basket*/
+.button {
+	float: right;
+	/* padding: 15px 15px; */
+	list-style: none;
+	padding-right: 20px;
+	font-size: 30px;
+}
+
+Button {
+	font-size: 45px;
+	padding-right: 20px;
+}
+
+/* info button */
+
+#infoButton {
+	float: left;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.gg-info {
+	width: 20px;
+	height: 20px;
+}
+
+#infoHeader {
+	font-size: 20px;
+	text-decoration: none;
+	border-style: none;
+}
+
+/* header */
+header {
+	height: 58px;
+}
+
+/* basket */
+#BasketTitle {
+	font-family: 'Merriweather', serif;
+	/* float: left; */
+}
+
+#items {
+	/* width: 60%; */
+	padding-left: 20px;
+	text-align: left;
+	border-style: dotted;
+	margin: 25px;
+	min-height: 500px;
+}
+
+#checkout {
+	border-style: solid;
+	margin-right: 30px;
+	min-height: 500px;
+	width: 70%;
+	float: right;
+}
+
+/* images for card */
+img {
+	max-width: 30%;
+}
+
+/* Books page */
+
+#BookContainer {
+	background-color: lightgray;
+	padding: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-radius: 15px;
+	max-width: 20%;
+	margin: 0 auto;
+}
+
+/* home page */
+
+.container {
+	background-color: lightgray;
+	padding: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-radius: 15px;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+#HomePage .container {
+	background-color: lightgray;
+	padding: 10px;
+
+	border-radius: 5px;
+}
+
+#homeCol {
+	float: left;
+	width: 29%;
+	padding: 0 20px;
+	/* background-color: lightgrey; */
+	margin: 10px;
+}
+
+#homeRow {
+	align-items: center;
+	/* margin-left: 90px;
+	margin-right: 40px; */
+}
+#HomeCard {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 14px;
+	text-align: center;
+	background-color: #f1f1f1;
+}
+
+/* home page icons */
+
+.gg-readme a {
+	font-size: 30px;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 16px;
+	text-align: center;
+	background-color: #f1f1f1;
+}
